@@ -1,0 +1,108 @@
+.all{
+    width: 70%;
+    margin: auto;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.name{
+  font-size: larger;
+  color: aliceblue;
+}
+.name:hover{
+  color: rgb(255, 113, 227);
+}
+h2 {
+  color: aliceblue;
+}
+.img1:hover{
+    border: 3px solid rgb(148, 67, 255);
+}
+.body{
+    border-radius: 25px;
+    display: flex;
+}
+.My-name{
+    justify-content: center;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 300px;
+    height: auto;
+    background-color: rgb(45, 213, 251);
+    
+}
+.My-name .param{
+    color: black;
+    font-size: 25px;
+    text-decoration: underline rgb(173, 6, 6);
+}
+.param:hover{
+    color: yellow;
+}
+.My-skills{
+    background-color: rgb(100, 157, 249);
+    text-align: center;
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+.My-content{
+    justify-content: center;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 300px;
+    height: auto;
+    background-color: rgb(64, 214, 157);
+}
+.p1::after, .p2::after, .p3::after, .p4::after, .p5::after, .p6::after, .p7::after {
+  content: "✅";
+}
+.p8::after, .p9::after, .p10::after, .p11::after, .p12::after, .p13::after {
+    content: "✅";
+  }
+.p1:hover, .p2:hover,.p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover {
+    text-decoration:3px underline red;
+  }
+.p8:hover, .p9:hover,.p10:hover, .p11:hover, .p12:hover, .p13:hover {
+    text-decoration: 3px underline rgb(60, 255, 60);
+  }
+.p1::before{
+    content: url("img/html5-brands-solid\ \(3\).svg");
+}
+.p2::before{
+  content: url("img/css3-alt-brands-solid.svg");
+}
+.p3::before{
+  content: url("img/js-brands-solid\ \(1\).svg");
+}
+.p4::before{
+  content: url("img/code-solid.svg");
+}
+.p5::before{
+  content: url("img/react-brands-solid.svg");
+}
+.p6::before{
+  content: url("img/node-js-brands-solid.svg");
+}
+.p8::before{
+  content: url("img/telegram-brands-solid.svg");
+}
+.p9::before{
+  content: url("img/instagram-brands-solid.svg");
+}
+.p10::before{
+  content: url("img/tiktok-brands-solid.svg");
+}
+.p11::before{
+  content: url("img/twitter-brands-solid.svg");
+}
+.p12::before{
+  content: url("img/linkedin-brands-solid.svg");
+}
+.p13::before{
+  content: url("img/youtube-brands-solid.svg");
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(242, 238, 181);
+}
+
+.container{
+    width: 720px;
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(179, 164, 79, 0.827);
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    background-color: rgb(166, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    background-color: black;
+    color: coral;
+    align-items: center;
+    justify-content: center;
+}
+td{
+    background-color: rgb(218, 214, 226);
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 40vh;
+    width: 50vh;
+    padding: 20px;
+}

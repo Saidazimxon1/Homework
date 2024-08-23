@@ -1,0 +1,53 @@
+/* header{
+
+    background-image: url(img/tesla-model-3-performance-review_cxmf.1920.webp);
+     background-size: cover;
+     background-position: center;
+ 
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ } */
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+ .content {
+    width: 100%;
+ }
+ section {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    
+    .car1 {
+       background-image: url(img/tesla-model-3-performance-review_cxmf.1920.webp) ;
+    }
+
+    .car2 {
+        background-image: url(img/48d87b7124e03248-main.jpg);
+    }
+
+    .car3 {
+        background-image: url(img/teslamodelx0623\(3\).jpg);
+    }
+
+    .car4 {
+        background-image: url(img/1200x800.jpg);
+    }
+
+    .car5 {
+        background-image: url(img/ikonka-75593.webp);
+    }
+
+    .car6 {
+        background-image: url();
+    }

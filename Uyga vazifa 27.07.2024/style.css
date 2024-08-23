@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contianer {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+h1, h4, h5 {
+    text-align: center;
+    color: rgb(229, 230, 231);
+}
+
+h4, h5, p {
+    color: rgb(173, 175, 175);
+}
+
+.card div{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 70px 10px 70px;
+    background-color: cornflowerblue;
+}
+
+.card{
+    background-color: rgb(23, 26, 31);
+    position: relative;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 80px ;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    background-color: blueviolet;
+    margin-top: 60px;
+}
+
+.card p{
+    padding: 5px 0;
+}
+
+h5{
+    padding-top:  30px;
+}
+
+.monht {
+    padding-bottom: 20px;
+}
+
+.card button {
+    margin-top: 40px
+}
+
+.card2 {
+    padding: 30px 20px;
+    flex-direction: column;
+}
+
+.most{
+    color: white;
+    background: cornflowerblue;
+    width: 100%;
+    border-radius: 5px  5px 1px 1px;
+    position: absolute;
+    top: -20px;
+}
